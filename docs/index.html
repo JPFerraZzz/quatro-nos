@@ -1,12 +1,99 @@
 <!doctype html>
-<html lang="pt">
+<html lang="pt-PT">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>quatro-nos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Projeto · Quatro Nós</title>
+  <meta name="description" content="Quatro Nós: projeto de rede empresarial com 4 nós remotos e um nó central, simulado no Cisco Packet Tracer. ISPGAYA, Laboratório de Redes 2026/2027.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Contagem de visitas (opcional): descomentar e trocar CODIGO pelo código do GoatCounter
+  <script data-goatcounter="https://CODIGO.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  -->
 </head>
 <body>
-<h1>quatro-nos</h1>
-<p>Laboratório de Redes, ISPGAYA 2026/2027. Página provisória; o website da equipa será publicado aqui.</p>
+  <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+  <header class="site">
+    <div class="bar">
+      <a class="brand" href="index.html">
+        <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true" focusable="false">
+          <g stroke="#1fa89a" stroke-width="2">
+            <line x1="17" y1="17" x2="5" y2="5"/>
+            <line x1="17" y1="17" x2="29" y2="5"/>
+            <line x1="17" y1="17" x2="5" y2="29"/>
+            <line x1="17" y1="17" x2="29" y2="29"/>
+          </g>
+          <circle cx="5" cy="5" r="3.5" fill="#fff"/>
+          <circle cx="29" cy="5" r="3.5" fill="#fff"/>
+          <circle cx="5" cy="29" r="3.5" fill="#fff"/>
+          <circle cx="29" cy="29" r="3.5" fill="#fff"/>
+          <circle cx="17" cy="17" r="5.5" fill="#f2a93b"/>
+        </svg>
+        Quatro Nós
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html" aria-current="page">Projeto</a>
+        <a href="equipa.html">Equipa</a>
+        <a href="calendario.html">Calendário</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <span class="tag">Laboratório de Redes · 2026/2027</span>
+      <h1>Quatro nós, um centro.</h1>
+      <p>Desenhamos e simulamos no Cisco Packet Tracer uma rede empresarial que liga quatro nós remotos a um nó central.</p>
+    </section>
+
+    <h2>O que estamos a construir</h2>
+    <p class="lead">Uma rede para uma empresa com quatro sedes remotas e uma sede central. Cada nó tem cerca de 350 equipamentos, ligados por cabo e por Wi-Fi, e protegidos por uma firewall própria.</p>
+    <p>O nó central também tem firewall e aloja os servidores da empresa. É por ele que passa a saída para a internet.</p>
+
+    <h2>Âmbito</h2>
+    <ul class="grid">
+      <li class="card">
+        <h3>4 nós remotos</h3>
+        <ul>
+          <li>Cerca de 350 equipamentos por nó</li>
+          <li>Acesso por cabo e por Wi-Fi</li>
+          <li>Firewall em cada nó</li>
+        </ul>
+      </li>
+      <li class="card">
+        <h3>1 nó central</h3>
+        <ul>
+          <li>Firewall</li>
+          <li>Servidores</li>
+          <li>Saída para a internet</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Como trabalhamos</h2>
+    <p>Usamos Scrum, com sprints de uma semana. O trabalho segue seis fases:</p>
+    <ol class="steps">
+      <li><strong>Gestão.</strong> Papéis, comunicação, planeamento e relatórios de performance.</li>
+      <li><strong>Website.</strong> Este site, publicado a 12/11 e mantido até ao fim do projeto.</li>
+      <li><strong>Análise e desenho.</strong> Requisitos, endereçamento, VLANs e topologia.</li>
+      <li><strong>Implementação.</strong> Montagem da rede no Packet Tracer.</li>
+      <li><strong>Testes.</strong> Testes de aceitação e de sobrevivência.</li>
+      <li><strong>Documentação e fecho.</strong> Manual, relatórios, PEN e apresentação.</li>
+    </ol>
+
+    <h2>Em estudo</h2>
+    <p>Estas decisões técnicas ainda estão em aberto e vão ser fechadas nas próximas semanas:</p>
+    <ul>
+      <li>Endereçamento para os 350 equipamentos de cada nó, numa rede única ou em várias VLANs.</li>
+      <li>Topologia em estrela, com o nó central no meio.</li>
+      <li>Ligação segura entre cada nó e o central através de VPN.</li>
+      <li>Domínio, DNS e DHCP centralizados no nó central.</li>
+    </ul>
+    <p class="note">Esta página vai sendo atualizada à medida que o projeto avança.</p>
+  </main>
+
+  <footer class="site">
+    ISPGAYA · Laboratório de Redes · 2026/2027 · Quatro Nós
+  </footer>
 </body>
 </html>
