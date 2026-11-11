@@ -1,0 +1,14 @@
+[MCP]
+enable
+configure terminal
+hostname INET-RTR
+interface GigabitEthernet0/0
+ description PARA-CENTRAL-FW1-OUTSIDE
+ ip address 203.0.113.1 255.255.255.252
+ no shutdown
+interface GigabitEthernet0/1
+ description INTERNET-SIMULADA
+ ip address 198.51.100.1 255.255.255.0
+ no shutdown
+end
+write memory

@@ -1,0 +1,49 @@
+[MCP]
+enable
+configure terminal
+hostname CENTRAL-SW1
+ip routing
+vlan 30
+ name SERVIDORES
+vlan 40
+ name DMZ
+vlan 99
+ name GESTAO
+ip access-list extended DMZ-IN
+ permit tcp host 10.0.40.10 eq 80 10.0.0.0 0.255.255.255 established
+ permit icmp host 10.0.40.10 10.0.0.0 0.255.255.255 echo-reply
+ deny ip 10.0.40.0 0.0.0.255 10.0.0.0 0.255.255.255
+ permit ip any any
+interface GigabitEthernet1/0/1
+ description PARA-CENTRAL-FW1
+ no switchport
+ ip address 10.0.255.1 255.255.255.252
+ no shutdown
+interface range GigabitEthernet1/0/2-5
+ description SERVIDORES-VLAN30
+ switchport mode access
+ switchport access vlan 30
+ spanning-tree portfast
+ no shutdown
+interface GigabitEthernet1/0/6
+ description CENTRAL-SRV-EXTRA-VLAN40
+ switchport mode access
+ switchport access vlan 40
+ spanning-tree portfast
+ no shutdown
+interface Vlan30
+ description GATEWAY-SERVIDORES
+ ip address 10.0.30.1 255.255.255.0
+ no shutdown
+interface Vlan40
+ description GATEWAY-DMZ
+ ip address 10.0.40.1 255.255.255.0
+ ip access-group DMZ-IN in
+ no shutdown
+interface Vlan99
+ description GESTAO
+ ip address 10.0.99.1 255.255.255.224
+ no shutdown
+ip route 0.0.0.0 0.0.0.0 10.0.255.2
+end
+write memory
