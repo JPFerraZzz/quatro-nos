@@ -2,7 +2,7 @@
 
 Fonte desta lista: plano do grupo (GANTT e WBS). Falta confirmar com o enunciado se há documentos exigidos que não estão aqui.
 
-**Formato standard exigido:** [A PREENCHER quando tivermos o enunciado]
+**Formato standard exigido:** modelo académico do ISPGAYA, com capa, autores, data, versão e identificação do documento, conforme o enunciado do projeto.
 
 ## Gestão
 | N.º | Documento | Responsável | Prazo | Pasta | Estado |
@@ -24,8 +24,8 @@ Fonte desta lista: plano do grupo (GANTT e WBS). Falta confirmar com o enunciado
 | N.º | Documento | Responsável | Prazo | Pasta | Estado |
 |---|---|---|---|---|---|
 | 9 | Relatório de especificação de requisitos | Duarte | 17/12/2026 | relatorios | Em curso |
-| 10 | Plano de endereçamento e VLANs | Duarte | [A CONFIRMAR] | relatorios | Em curso |
-| 11 | Desenho da topologia | Duarte | [A CONFIRMAR] | relatorios | Pendente |
+| 10 | Plano de endereçamento e VLANs | Duarte | 17/12/2026 | relatorios | Em curso |
+| 11 | Desenho da topologia | Duarte | 17/12/2026 | relatorios | Pendente |
 
 ## Implementação
 | N.º | Documento | Responsável | Prazo | Pasta | Estado |
@@ -51,7 +51,7 @@ Fonte desta lista: plano do grupo (GANTT e WBS). Falta confirmar com o enunciado
 | 22 | Apresentação | Guilherme | 07/01/2027 | relatorios | Pendente |
 
 ## Verificação de formato (Pedro, antes de cada entrega)
-- [ ] Formato standard cumprido ([A PREENCHER])
+- [ ] Formato standard cumprido (modelo do ISPGAYA)
 - [ ] Autores e data em cada documento
 - [ ] Versão final guardada na pasta indicada
 - [ ] Documento listado nesta tabela com o estado atualizado

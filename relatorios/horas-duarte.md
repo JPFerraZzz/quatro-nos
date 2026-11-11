@@ -1,0 +1,5 @@
+# Registo de horas — Duarte Sousa
+
+| Data | Horas | Atividade |
+|---|---:|---|
+| 11/11/2026 | 3 | Consolidação dos requisitos e do endereçamento; preparação e revisão do pacote de configuração para o Packet Tracer. |
