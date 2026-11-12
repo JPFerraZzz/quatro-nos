@@ -2,11 +2,18 @@
 
 Projeto de grupo de Laboratório de Redes (ISPGAYA, 2026/2027): rede empresarial com 4 nós remotos e 1 nó central, desenhada e simulada no Cisco Packet Tracer.
 
-## Equipa
-- Guilherme Cruz — Project Manager
-- Duarte Sousa — Analista e Arquiteto
-- João Ferraz — Técnico
-- Pedro Lopes — Secretário
+## Equipa (Grupo 3)
+
+| Nome | Cargo | GitHub |
+|---|---|---|
+| Guilherme Cruz | Project Manager e Scrum Master | [White-Rose-Dev](https://github.com/White-Rose-Dev) |
+| Duarte Sousa | Analista e Arquiteto | [Waking-Cloud](https://github.com/Waking-Cloud) |
+| João Ferraz | Técnico | [JPFerraZzz](https://github.com/JPFerraZzz) |
+| Pedro Lopes | Secretário | [pdsl19](https://github.com/pdsl19) |
+| Diogo Tavares | Analista de Equipamentos | |
+| Gonçalo Moura | | |
+
+Website do projeto: https://jpferrazzz.github.io/quatro-nos/
 
 ## Estrutura
 - `docs/` — website (publicado por GitHub Pages)
